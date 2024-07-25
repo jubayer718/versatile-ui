@@ -1,0 +1,11 @@
+@media screen and (max-width: 576px) {
+  .nav-menu li{
+    display: none;
+  }
+  .nav-menu{
+    border: none;
+  }
+   .nav-menu #ham-barger{
+    display: block;
+  }
+}

@@ -2,8 +2,109 @@
 
 body{
   font-family: "inter";
+  background-color: #131313;
 }
 
-h1{
-  font-family: 'miama';
+.container{
+  width: 90%;
+  margin: 3rem auto;
 }
+
+
+/* nav related styles starts here */
+.nav-title h3{
+  color: #E6533C;
+  font-size: 800;
+  font-size: 2.2rem;
+  margin: 0;
+}
+#home{
+  color: white;
+  font-weight: 600;
+  padding: 8px 20px;
+  background-color: #E6533C;
+  border-radius: 30px;
+}
+.nav-menu{
+  display: flex;
+  align-items: center;
+  border: 1px dashed #424242;
+  padding: 10px;
+  gap: 30px;
+  border-radius: 30px;
+}
+
+.nav-menu li{
+color: #131313;
+font-size: 16px;
+font-weight: 500;
+cursor: pointer;
+list-style: none;
+color: #fff;
+
+}
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.nav-menu #ham-barger{
+  display: none;
+}
+/* nav related styles ends here */
+
+
+
+    /* banner related styles starts here  */
+    .banner-content{
+      width: 50%;
+    }
+    .banner-content h3{
+      font-weight: 900;
+      font-size: 5rem;
+      text-align: left;
+      color: #fff;
+      margin: 0;
+      line-height: normal;
+    }
+    .banner-content h3 span{
+      font-family: "miama";
+      font-size: 6rem;
+    }
+    .banner-content p{
+      color: #FFFFFF80;
+      font-size: 16px;
+      font-weight: 400;
+      text-align: left;
+    }
+    .banner-content .btn-primary,.btn-secoendary{
+      padding: 16px 40px;
+      background-color: #E6533C;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;
+      border: none;
+      border-radius: 30px;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+    img{
+      width: 100%;
+    }
+    .banner-img{
+      width: 40%;
+      border: 1px solid red;
+    }
+    .banner-container{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid red;
+    }
+
+
+
+
+   /* banner related styles ends here  */
