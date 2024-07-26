@@ -8,4 +8,18 @@
    .nav-menu #ham-barger{
     display: block;
   }
+  .banner-content h3{
+   font-weight: 700;
+   font-size: 4rem;
+   line-height: 1em;
+  }
+
+  .banner-container{
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+  .btn-1{
+    margin-left: 30px;
+  }
+
 }
