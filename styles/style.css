@@ -114,10 +114,10 @@ color: #fff;
      display: grid;
      grid-template-columns: 1fr 1fr;
      align-items: center;
-     background: linear-gradient(180.00deg, rgb(17, 17, 17) 0%,rgba(119, 119, 119, 0) 100%);
+     background: linear-gradient(180.00deg, rgba(17, 17, 17, 0.4) 0%,rgba(119, 119, 119, 0) 100%);
    
      gap: 10rem;
-    
+     
      
     }
     .banner-img{
@@ -176,7 +176,98 @@ color: #fff;
       margin: 0;
     }
 
-
-
-
    /* banner related styles ends here  */
+
+   /* change your habit section starts here */
+   .your-habit h3{
+     font-weight: 800;
+      font-size: 3rem;
+      color: #fff;
+      margin: 0;
+      text-align: center;
+
+   }
+   .your-habit p{
+    color: #FFFFFF80;
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      text-align: center;
+   }
+
+   .habit-container .img h3{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+   }
+   .habit-container .img p{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+    color: #424242;
+    text-align: center;
+   }
+   .habit-container .img{
+    width: 200px;
+    margin: 0 auto;
+   }
+   .habit-container .img img{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 50%;
+   }
+   .habit-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 50px;
+   }
+   .join-btn{
+    padding: 1rem 2rem;
+      background-color: #E6533C;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;
+      border: none;
+      border-radius: 2rem;
+      margin-left: 0.5rem;
+      cursor: pointer;
+      margin-top: 20px;
+   }
+
+   .run-content h3{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 10px;
+   }
+   .run-content p{
+     font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+    color: #424242;
+    margin-bottom: 10px;
+   }
+   .run-content,.run-img{
+    width: 40%;
+   }
+ 
+
+   .run-img img{
+    width: 100%;
+    border-radius: 20px;
+   }
+   .run-extra-mile-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 15px;
+   }
+   /* change your habit section ends here */
