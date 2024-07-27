@@ -33,6 +33,9 @@
   .run-content,.run-img{
     width: 100%;
   }
+  .row-1 {
+    grid-template-columns: 1fr;
+  }
 
 
 }
