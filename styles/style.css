@@ -135,7 +135,7 @@ color: #fff;
       background-color: #FFFFFF1A;
       border: none;
       border-radius: 10px;
-     
+
       position: absolute;
 
     }
@@ -410,12 +410,43 @@ color: #fff;
   top:170px;
  
 }
-
-
-  
- 
-  
-
-
-
    /* training section ends here */
+
+
+
+   /* BMI calculator section styles starts here  */
+ .bmi-container{
+    background-color: #222222;
+    
+   }
+   .calculator h1{
+    text-align: center;
+    color: white;
+
+   }
+   .calculator p{
+     font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+    color: #727272;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 5rem;
+
+   }
+
+  table{
+    border-collapse: collapse;
+  }
+  .bmi-table h4{
+    color: white;
+    font-weight: 700;
+  }
+  th, td{
+    border: 1px solid gray;
+    padding: 10px;
+    color: #FFFFFF80;
+  }
+
+
+   /* BMI calculator section styles ends here  */
