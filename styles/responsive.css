@@ -13,6 +13,12 @@
    font-size: 4rem;
    line-height: 1em;
   }
+  .banner-content h3 span{
+      font-family: "miama";
+      font-weight: normal;
+      font-size: 7rem;
+    
+    }
 
   .banner-container{
     grid-template-columns: 1fr;
