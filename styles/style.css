@@ -500,4 +500,54 @@ form{
 grid-column: span 2;
  margin-bottom: 2rem;
 }
+.math-btn{
+  padding: 1rem 2rem;
+      background-color: #E6533C;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;
+      border: none;
+      border-radius: 2rem;
+      margin-left: 0.5rem;
+      cursor: pointer;
+}
    /* BMI calculator section styles ends here  */
+
+   /* our team section starts here */
+   .our-team h3{
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-weight: 800;
+    text-align: center;
+    
+   }
+   .our-team p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #424242;
+    text-align: center;
+    margin-top: 20px;
+   }
+
+   .our-team-container{
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 50px;
+   }
+   .img-row-1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 10px;
+    
+   }
+   .img-row-1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+   }
+
+
+   /* our team section ends here */
