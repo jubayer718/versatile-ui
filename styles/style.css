@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+*{
+ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
   font-family: "inter";
   background-color: #131313;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+ 
 }
 
 .container{
@@ -414,38 +416,88 @@ color: #fff;
 
 
    /* BMI calculator section styles starts here  */
- .bmi-container{
-    background-color: #222222;
-    
-   }
-   .calculator h1{
-    text-align: center;
-    color: white;
+ /* BMI section start */
+.bmi-container{  
+  background-color: #222222;
+  padding-top: 5px ;
+  padding-bottom: 30px;
+}
 
-   }
-   .calculator p{
-     font-size: 16px;
-    font-weight: normal;
-    margin-top: 10px;
-    color: #727272;
-    margin-bottom: 10px;
-    text-align: center;
-    margin-bottom: 5rem;
+/* BMI section design */
+table{
+  border-collapse: collapse;
 
-   }
-
-  table{
-    border-collapse: collapse;
-  }
-  .bmi-table h4{
-    color: white;
-    font-weight: 700;
-  }
+}
+thead th{
+  color: #FFFFFF;
+}
   th, td{
-    border: 1px solid gray;
-    padding: 10px;
-    color: #FFFFFF80;
-  }
+border: 1px solid gray;
 
+padding: 20px;
+text-align: left;
+color:  #FFFFFF80;
+}
+.bmi-table h3{
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  padding-bottom: 3rem;
+  
+  
+ 
+}
+/* bmi calculate related styles here */
+.bmi-calculator h3{
+   font-size: 1.5rem;
+  font-weight: 800;
+  color:#FAFAF9;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.bmi-calculator p{
+   font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF80;
+  margin-bottom: 50px;
+}
+.bmi-table{
+  
+  padding-left: 50px;
+}
 
+.bmi-content{
+ 
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
+  gap: 170px;
+}
+.bmi-chart input[type="text"]{
+  padding: 12px;
+  font-size: 16px;
+  color: #FFFFFF99;
+  border-radius: 5px;
+  border: none;
+ 
+  background-color:rgba(255, 255, 255, 0.1);
+  
+}
+.bmi-chart select{
+  padding: 12px;
+  border: none;
+  color: #FFFFFF99;
+  border-radius: 5px;
+  background-color:  rgba(255, 255, 255, 0.1);
+  
+}
+
+form{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+#factor {
+grid-column: span 2;
+ margin-bottom: 2rem;
+}
    /* BMI calculator section styles ends here  */
