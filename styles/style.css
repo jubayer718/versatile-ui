@@ -535,6 +535,7 @@ grid-column: span 2;
     border-radius: 10px;
     padding: 10px;
     margin-top: 50px;
+    
    }
    .img-row-1{
     display: grid;
@@ -547,7 +548,117 @@ grid-column: span 2;
     height: 100%;
     width: 100%;
     border-radius: 10px;
+   
+   }
+  
+   
+
+   /* .img-row-1 :nth-child(1), 
+   .trainer-box{
+    position: relative;
+    
+   }
+  
+ 
+   .img-row-1 :nth-child(1) h6 {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    color: white;
+     
+  
+
+   }
+   .img-row-1 :nth-child(1) p{
+    position: absolute;
+      bottom: 10px;
+    left: 10px;
+    color: #131313;
+    font-weight: 600;
+    font-size: 12px;
+
+   }
+    .img-row-1 :nth-child(2){
+    position: relative;
    }
 
+   .img-row-1 :nth-child(2) h6{
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    color: white;
+   }
+   .img-row-1 :nth-child(2) p{
+     position: absolute;
+      bottom: 10px;
+    left: 10px;
+    color: #131313;
+    font-weight: 600;
+    font-size: 12px;
+   }
+   .img-row-1 .trainer-box ,:nth-child(3){
+    position: relative;
+     
+   }
+   .img-row-1 :nth-child(3) h6{
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    color: white;
+   }
+   .img-row-1 :nth-child(3) p{
+     position: absolute;
+      bottom: 10px;
+    left: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    
+    
+   } */
+   
+   
+   
+   
+   .trainer-box{
+     position: relative;
+    }
+    .trainer-box h6{
+      position: absolute;
+    bottom: 30px;
+    left: 10px;
+    color: white;
+}
+.trainer-box p{
+   position: absolute;
+      bottom: 10px;
+    left: 10px;
+    color: aqua;
+    font-weight: 600;
+    font-size: 12px;
+}
+.trainer-box::before{
+    content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0047FF4D;
+}
 
+.img-row-1 .trainer-box::before{
+     content: "";
+display: block;
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.2);
+}
    /* our team section ends here */
