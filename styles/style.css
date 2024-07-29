@@ -662,4 +662,64 @@ width: 100%;
 background-color: rgba(0, 0, 0, 0.2);
 }
    /* our team section ends here */
+
+
+   /* footer section starts here */
+  .footer-container{
+    background-color: #FFFFFF1A;
+    padding: 3rem 0;
+  }
+  .footer-content{
+  display: flex;
+  justify-content: space-between;
+   
+  }
+  .footer-title{
+    width: 40%;
+    
+  }
+ 
+  .get-started{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+  }
+  .get-started h4{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .footer-title p{
+    color: #FFFFFF80;
+    line-height: 1.5em;
+    margin-top: 20px;
+    
+  }
+  
+  .get-started a{
+    color: #FFFFFF80;
+    text-decoration: none;
+    font-weight: 500;
+  }
+ 
+  .get-started a:hover{
+    text-decoration: underline;
+    font-size: 17px;
+    transition: 0.3s ease;
+  }
+  .footer-container hr{
+    border: 2px solid #E6533C;
+    width: 90%;
+    margin: 2rem auto;
+  }
+  .footer-container p{
+    color: #FFFFFF80;
+    text-align: center;
+    font-size: 12px;
+  }
+    
+
+
+   /* footer section ends here */
    

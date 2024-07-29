@@ -66,6 +66,10 @@
 .img-row-1{
   grid-template-columns: 1fr;
 }
+.footer-content{
+  flex-direction: column;
+  gap: 30px;
+}
 
 
  }
