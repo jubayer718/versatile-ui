@@ -70,6 +70,10 @@
   flex-direction: column;
   gap: 30px;
 }
+.get-ready-img h3{
+  text-align: center;
+ 
+}
 
 
  }

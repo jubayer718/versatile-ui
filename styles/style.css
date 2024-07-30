@@ -276,6 +276,33 @@ color: #fff;
    }
    /* run-extra-mile section ends here */
 
+
+   /* get ready section starts here */
+   .get-ready-img{
+     display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url(../images/instrument-1.jpg);
+    
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 413px;
+     border-radius: 10px;
+     background-color: rgba(0, 0, 0, 0.5);
+     background-blend-mode: overlay;
+   }
+
+  
+   .get-ready-img h3{
+    
+    color: aqua;
+    opacity: 0.5;
+    font-size: 3rem;
+   
+   }
+   /* get ready section starts here */
+
    /* training section starts here */
    .exercise h3{
     font-size: 2.5rem;
