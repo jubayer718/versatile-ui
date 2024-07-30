@@ -694,7 +694,8 @@ background-color: rgba(0, 0, 0, 0.2);
    /* footer section starts here */
   .footer-container{
     background-color: #FFFFFF1A;
-    padding: 3rem 0;
+     background-attachment: fixed;
+    padding: 2rem 0;
   }
   .footer-content{
   display: flex;
@@ -704,6 +705,9 @@ background-color: rgba(0, 0, 0, 0.2);
   .footer-title{
     width: 40%;
     
+  }
+  .footer-title h3{
+    text-align: left;
   }
  
   .get-started{
@@ -717,10 +721,11 @@ background-color: rgba(0, 0, 0, 0.2);
     font-size: 1.5rem;
     margin-bottom: 10px;
   }
-  .footer-title p{
+  #footer-description {
     color: #FFFFFF80;
     line-height: 1.5em;
     margin-top: 20px;
+    text-align: left;
     
   }
   
@@ -744,6 +749,7 @@ background-color: rgba(0, 0, 0, 0.2);
     color: #FFFFFF80;
     text-align: center;
     font-size: 12px;
+    text-align: center;
   }
     
 
