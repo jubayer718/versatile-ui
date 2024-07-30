@@ -259,11 +259,14 @@ color: #fff;
    .run-content,.run-img{
     width: 40%;
    }
- 
 
    .run-img img{
     width: 100%;
     border-radius: 20px;
+
+    object-fit: none;
+    object-position: 65% 31%;
+
    }
    .run-extra-mile-container{
     display: flex;
