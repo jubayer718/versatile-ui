@@ -736,7 +736,7 @@ background-color: rgba(0, 0, 0, 0.2);
  
   .get-started a:hover{
     text-decoration: underline;
-    font-size: 17px;
+    transform: scale(1.1);
     transition: 0.3s ease;
   }
   .footer-container hr{
