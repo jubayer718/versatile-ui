@@ -60,13 +60,10 @@
     .row{
       grid-template-columns: 1fr;
     /* margin-bottom: 100px; */
-
-
     }
 
     .blok img{
      height: auto;
-     
     }
    
     /* available section ends */
