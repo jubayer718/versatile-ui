@@ -302,6 +302,62 @@ color: #fff;
    }
    /* get ready section starts here */
 
+  /* instrument related styles starts here */
+  .instrument{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+  }
+  .instrument h2{
+    color: #ff3838;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  .row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 100px; 
+  }
+  .blok{
+    height: 330px;
+    border-radius: 10px;
+    position: relative; 
+  }
+ .blok img ::before{
+    
+   content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+ background-color: rgba(10, 10, 10, 0.2);
+ 
+  }
+  .blok img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; 
+  }
+  .blok h4{
+    color: #E6533C;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .blok p{
+    color: #424242;
+    
+  }
+  
+  /* instrument related styles ends here */
+
    /* training section starts here */
    .exercise h3{
     font-size: 2.5rem;
@@ -330,6 +386,7 @@ color: #fff;
    .row-1{
     display: grid;
     grid-template-columns: 0.5fr 1fr 0.6fr;
+    
    
   
    
@@ -662,18 +719,7 @@ grid-column: span 2;
     font-weight: 600;
     font-size: 12px;
 }
-.trainer-box::before{
-    content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #0047FF4D;
-}
+
 
 .img-row-1 .trainer-box::before{
      content: "";

@@ -52,6 +52,24 @@
     object-position: 64% 28%;
 
    } */
+    /* available section  */
+    .instrument{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .row{
+      grid-template-columns: 1fr;
+    /* margin-bottom: 100px; */
+
+
+    }
+
+    .blok img{
+     height: auto;
+     
+    }
+   
+    /* available section ends */
   .row-1 {
     grid-template-columns: 1fr;
   }
