@@ -64,7 +64,9 @@ color: #fff;
     .banner{
       margin-top: 50px;
     }
-  
+  .header{
+    background-image:linear-gradient( to top,rgb(17, 17, 17),rgba(119, 119, 119, 0.2), rgb(17,17, 17));
+  }
     .banner-content h3{
       font-weight: 800;
       font-size: 5rem;
@@ -115,7 +117,6 @@ color: #fff;
      display: grid;
      grid-template-columns: 1fr 1fr;
      align-items: center;
-     background-image:linear-gradient( to top,rgb(17, 17, 17),rgba(119, 119, 119, 0.2), rgb(17,17, 17));
      gap: 10rem;
      
      
