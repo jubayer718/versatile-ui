@@ -55,6 +55,9 @@
     object-position: 64% 28%;
 
    } */
+ .join-btn{
+   width: 100%;
+ }
     /* available section  */
     .instrument{
       width: 100%;
