@@ -73,7 +73,7 @@ color: #fff;
       margin: 0;
     }
     .banner-content h3 span{
-      font-family: "miama";
+      font-family: 'miama';
       font-weight: normal;
       font-size: 8rem;
     
@@ -115,7 +115,7 @@ color: #fff;
      display: grid;
      grid-template-columns: 1fr 1fr;
      align-items: center;
-     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+     background-image:linear-gradient( to top,rgb(17, 17, 17),rgba(119, 119, 119, 0.2), rgb(17,17, 17));
      gap: 10rem;
      
      
@@ -141,11 +141,18 @@ color: #fff;
     }
     
      .banner-img #surcle{
-      width: 30px;
-      height: 30px;
+      width: 35px;
+      height: 35px;
       border-radius: 50%;
       background-color: #E6533C;
+      display: flex;
+      align-items: center;
+      justify-content: center;
      
+    }
+    #surcle i{
+      font-size: 1.2rem;
+      color: white;
     }
     .btn-1{
       left: -3rem;
@@ -154,7 +161,7 @@ color: #fff;
     }
     .btn-2{
      bottom: 520px;
-    right: -10px;
+    right: 8px;
      padding: 
       10px 16px;
     }
@@ -359,6 +366,9 @@ color: #fff;
   /* instrument related styles ends here */
 
    /* training section starts here */
+   .box-1 h5{
+    color: white;
+   }
    .exercise h3{
     font-size: 2.5rem;
     color: #fff;
@@ -782,8 +792,6 @@ background-color: rgba(0, 0, 0, 0.2);
  
   .get-started a:hover{
     text-decoration: underline;
-    transform: scale(1.1);
-    transition: 0.3s ease;
   }
   .footer-container hr{
     border: 2px solid #E6533C;

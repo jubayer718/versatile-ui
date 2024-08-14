@@ -44,6 +44,9 @@
   .run-content,.run-img{
     width: 100%;
   }
+  .run-content .join-btn{
+   width: 100%;
+  }
   /* .run-img img{
     width: 100%;
     border-radius: 20px;
